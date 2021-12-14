@@ -1,0 +1,52 @@
+.formContainer {
+    padding: 10px;
+    width: 550px;
+    margin: 0 auto;
+    background-color: #ddd4d4;
+}
+
+.formContainer h4 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+span {
+    color: red;
+}
+
+input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+input:focus{
+    outline: none;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.cardNumberBox {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.cardNumberBox input {
+    width: 100%;
+}
+.expiryPlusCardCodeBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.expiryPlusCardCodeBox >div {
+    width: 100%;
+    text-align: left;
+}
+.expiryBox {
+    margin-right: 20px;
+}
