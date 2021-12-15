@@ -1,13 +1,22 @@
 .formContainer {
     padding: 10px;
-    width: 550px;
-    margin: 0 auto;
     background-color: #ddd4d4;
+    position: relative;
+}
+
+.formContainer::after {
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    left: 30px;
+    top: -10px; /* Положение треугольника */
+    border: 5px solid transparent;  /* Прозрачные границы */
+    border-bottom: 5px solid #ddd4d4; /* Добавляем треугольник */
 }
 
 .formContainer h4 {
     font-size: 12px;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 
 span {
@@ -20,7 +29,8 @@ input {
     border-radius: 4px;
     width: 100%;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
 
@@ -37,16 +47,35 @@ p {
 
 .cardNumberBox input {
     width: 100%;
+    position: relative;
+    /*background-image: url('/src/img/visa.png');*/
+    background-repeat: no-repeat;
+    background-position: 98%;
 }
+/*.cardNumberBox input:after {
+    content: "";
+    position: absolute;
+    z-index: 20;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background-image: url('/src/img/visa.png');
+}*/
+
 .expiryPlusCardCodeBox {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.expiryPlusCardCodeBox >div {
+
+.expiryPlusCardCodeBox > div {
     width: 100%;
     text-align: left;
 }
+
 .expiryBox {
     margin-right: 20px;
+}
+.onSubmitButton{
+    display: none;
 }
