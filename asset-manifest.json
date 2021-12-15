@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/atlanta-form/static/css/main.11518b3e.chunk.css",
+    "main.js": "/atlanta-form/static/js/main.94bcf4f0.chunk.js",
+    "main.js.map": "/atlanta-form/static/js/main.94bcf4f0.chunk.js.map",
+    "runtime-main.js": "/atlanta-form/static/js/runtime-main.97e79686.js",
+    "runtime-main.js.map": "/atlanta-form/static/js/runtime-main.97e79686.js.map",
+    "static/js/2.6d8fb87d.chunk.js": "/atlanta-form/static/js/2.6d8fb87d.chunk.js",
+    "static/js/2.6d8fb87d.chunk.js.map": "/atlanta-form/static/js/2.6d8fb87d.chunk.js.map",
+    "static/js/3.50c9f651.chunk.js": "/atlanta-form/static/js/3.50c9f651.chunk.js",
+    "static/js/3.50c9f651.chunk.js.map": "/atlanta-form/static/js/3.50c9f651.chunk.js.map",
+    "index.html": "/atlanta-form/index.html",
+    "static/css/main.11518b3e.chunk.css.map": "/atlanta-form/static/css/main.11518b3e.chunk.css.map",
+    "static/js/2.6d8fb87d.chunk.js.LICENSE.txt": "/atlanta-form/static/js/2.6d8fb87d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/atlanta-form/static/media/circle.e59d5e25.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97e79686.js",
+    "static/js/2.6d8fb87d.chunk.js",
+    "static/css/main.11518b3e.chunk.css",
+    "static/js/main.94bcf4f0.chunk.js"
+  ]
+}
